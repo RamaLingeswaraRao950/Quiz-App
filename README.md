@@ -1,4 +1,4 @@
-**Quizzie** is a web application that allows users to create, share, and take quizzes. It provides two types of quizzes: Q&A type and poll type. This project is built using ReactJS for the frontend and Node.js, Express, and MongoDB for the backend.
+**Quiz App** is a web application that allows users to create, share, and take quizzes. It provides two types of quizes: Q&A type and poll type. This project is built using ReactJS for the frontend and Node.js, Express, and MongoDB for the backend.
 
 ## Features
 
@@ -43,4 +43,4 @@ Participants can take quizzes shared by other users. Depending on the quiz type,
 - **Express**
 - **MongoDB**
 
-Thank you for checking out **Quizze**! I hope it's useful to you. Happy quizzing!
+Thank you for checking out **Quiz App**! I hope it's useful to you. Happy quizzing!
