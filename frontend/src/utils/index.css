@@ -1,0 +1,232 @@
+.quiz-text {
+    display: flex;
+    align-items : center;
+    margin-bottom: 10px;
+    gap: 10px;
+    position: relative;
+    left: -21px;
+}
+::placeholder {
+    color: #9F9F9F;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.quiz-text-input {
+    width: 55%;
+    padding: 11px 12px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 15.46px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+/* #quiz-text-radio {
+    border: 0! important;
+    clip: rect(1px , 1px, 1px, 1px);
+    overflow: hidden;
+    height: 1px !important;
+    padding: 0px !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+.quiz-text .radio-label {
+    color: #999;
+    display: inline-flex;
+    align-items: center;
+}
+.quiz-text .radio-label::before {
+    content : '';
+    display: block;
+    height: 0.9rem;
+    width: 0.9rem;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+}
+
+#quiz-text-radio:checked + .radio-label::before {
+    background: radial-gradient(0.55em circle at center, #60b84b 50%, transparent 55%);
+} */
+
+
+.quiz-text img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.add-option-btn {
+    width: 55%;
+    padding:8px 0px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15.46px rgba(0, 0, 0, 0.15);
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #9F9F9F;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.add-option-btn:hover {
+    transform: scale(1.01,1.01);
+}
+
+.quiz-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-buttons button{
+    width: 40%;
+    padding: 9px 0px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-weight: 550;
+    box-shadow: 0px 0px 14.5px rgba(0, 0, 0, 0.2);  
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+.quiz-buttons button:hover{
+    transform: scale(1.05,1.05);
+}
+
+.quiz-buttons .quiz-continue-btn {
+    background-color: #60B84B;
+    color: white;
+}
+
+.trending-quiz {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 0.2em;
+    width: 21%;
+    height: 1.59em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7em;
+}
+
+.trending-quiz-heading {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-quiz-heading h6{
+    font-size: 0.58em;
+}
+
+.trending-quiz-heading p {
+    font-size: 0.32em;
+    display: flex;
+    align-items: center;
+    color: #FF5D01;
+    font-weight: 550;
+    gap: 5px;
+}
+
+.trending-quiz-heading p img {
+    width: 1.05em;
+}
+
+.trending-quiz-created-date {
+    font-size: 0.3em;
+    width: 90%;
+    color: #60B84B;
+    font-weight: 550;
+}
+
+.qaquestion-container {
+    margin-top: 3.5vh;
+    border-bottom: 0.03em solid #D7D7D7;
+    width: 90%;
+    padding: 0px 0px 3vh 0px;
+}
+
+.qaquestion {
+    font-size: 0.31em;
+    font-weight: 500;
+}
+
+.qaquestion-analytics {
+    font-size: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.qaquestion-analytics .analyze {
+    background-color: white;
+    border-radius: 0.5em;
+    display: flex;
+    width: 28%;
+    height: 7em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #474444;
+}
+
+.qaquestion-analytics .analyze span {
+    font-size: 2.5em;
+    font-weight: 550;
+}
+.qaquestion-analytics .analyze p {
+    font-weight: 550; 
+}
+
+.pollquestion-analytics {
+    font-size: 0.2em;
+    display: flex;
+    gap: 0.9em;
+    width: 105%;
+    margin-top: 1.5em;
+}
+.pollquestion-analytics .poll-analyze {
+    background-color: white;
+    border-radius: 0.5em;
+    display: flex;
+    width: 22%;
+    height: 7.2em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    color: #474444;
+    padding: 0 0.7em;
+    margin-right: 1em;
+}
+
+.pollquestion-analytics .poll-analyze span.count {
+    font-size: 2.5em;
+    font-weight: 550;
+}
+.pollquestion-analytics .poll-analyze .poll-analyze-content {
+    height: 100%;
+    width: 80%;
+    font-weight: 550; 
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.pollquestion-img {
+    width: 80%;
+    height: 70%;;
+}
+
+.pollquestion-analytics .poll-analyze div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
