@@ -42,5 +42,3 @@ Participants can take quizzes shared by other users. Depending on the quiz type,
 - **Node.js**
 - **Express**
 - **MongoDB**
-
-Thank you for checking out **Quiz App**! I hope it's useful to you. Happy quizzing!
